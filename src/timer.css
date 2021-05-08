@@ -1,0 +1,47 @@
+.flex-container{
+    height: 50vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.timer{
+    justify-content: center;
+    width: 10vw;
+}
+.num{
+    color: coral;
+    font-family: 'Bungee Shade', cursive;
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+    {/*background-image: url(background1.jpeg);*/}
+}
+button{
+    background-color: coral;
+    border-radius: 10px;
+    height: 6vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+input{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 5vh;
+    margin: 10px;
+    border-radius: 10px;
+    opacity: 0.5;
+    background-color: blanchedalmond;
+}
+h1{
+    font-size: 7vh;
+}
+.deadline{
+    padding-top: 5vw;
+}
+.read{
+    font-family: 'Montserrat', sans-serif;
+}
