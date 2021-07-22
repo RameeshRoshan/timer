@@ -48,7 +48,6 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <h1>rameesh</h1>
         <Deadline date={this.state.input}/>
         <Timer days={this.state.days} hours={this.state.hours} minutes={this.state.minutes} seconds={this.state.seconds} />
         <Input onclick={this.onClick} onchange={this.onChange}/>
